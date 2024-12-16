@@ -11,6 +11,7 @@ path = "src/main.rs"
 [dependencies]
 masquerade = { path = "../masquerade" }
 clap = { version = "4.5.23", features = ["derive"] }
+duct = "0.13.7"                                      # mv for process control
 
 [lints.rust]
 nonstandard-style = { level = "warn", priority = -1 }
